@@ -1,5 +1,8 @@
 # ETL de indicadores publicos + dashboard
 
+![CI](https://github.com/ManowTheusZica/etl-dados-abertos/actions/workflows/ci.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.12+-3776AB?logo=python&logoColor=white)
+
+
 Pipeline que coleta series do Banco Central (API SGS, sem chave), trata os dados,
 carrega em SQLite de forma idempotente e serve um dashboard com graficos e analise
 de correlacao com defasagem.
